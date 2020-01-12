@@ -1,6 +1,6 @@
 #! /usr/bin/gnuplot
 
-#Script encargado de graficar los datos incluidos en el documento de texto plano datos.txt recibidos de la raspberry al relé.
+#Script encargado de graficar los datos incluidos en el documento de texto plano datos.txt recibidos de la raspberry al PC.
 
 set multiplot layout 2,3
 set grid
