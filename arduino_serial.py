@@ -6,8 +6,8 @@ import serial
 import time
 import os #La incluímos para utilizar la funcionalidad dependiente del sistema operativo.
 
-f = open ("datos.txt", "w") #Creamos el fichero
-f.close() #Eliminamos el fichero
+f = open ("datos.txt", "w") #Creamos el fichero.
+f.close() #Eliminamos el fichero.
 
 #Conexión con el puerto al que está conectado el Arduino,
 #si no lo sabemos hemos de comprobarlo en /dev/tty. 
@@ -29,7 +29,7 @@ try:
 
             f = open ("datos.txt", "a") #a de append, se añaden datos a los que ya hay de forma continua.  
             
-            datos = arduino.readline() #Lectura del Arduino con el método read.line()
+            datos = arduino.readline() #Lectura del Arduino con el método read.line().
             
             f.write(datos)
             
