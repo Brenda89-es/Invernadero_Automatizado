@@ -1,4 +1,4 @@
-/*Programa que toma valores analogicos de temperatura, humedad, presion y luminosidad*/
+/*Programa que toma valores analogicos de temperatura, humedad, presion, luminosidad, humedad del suelo*/
 
 //Librerias necesarias para el sensor BME/BME280
 # include <Wire.h>
@@ -22,7 +22,7 @@ void setup()
 {
     Serial.begin(9600);  
     bme.begin(0x76);   //Jumper,valor hexadecimal que establecemos
-    contador = 1; 
+    contador = 1; //Contador desde el valor 1, no desde 0. 
     delay(2000);  
 }
 
