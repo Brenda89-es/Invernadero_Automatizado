@@ -2,11 +2,11 @@
 
 #Script encargado de graficar los datos incluidos en el documento de texto plano datos.txt recibidos de la raspberry al PC.
 
-set multiplot layout 2,3
-set grid
+set multiplot layout 2,3 #Distribución de los gráficos, dos filas por tres columnas.
+set grid #Mallado. 
 
 unset key 
-set time top
+set time top #Colocación del tiempo.
 
 # Gráfico 1: Temperatura. 
 set title "Temperatura vs medidas"
@@ -48,7 +48,7 @@ unset multiplot
 # Pausa de 7 segundos  para que el archivo acumule más datos para graficar.
 pause 7
 
-# releer el archivo con 7 segundos de datos
+# releer el archivo con 7 segundos de datos.
 reread
 
     
