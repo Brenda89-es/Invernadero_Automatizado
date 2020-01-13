@@ -1,5 +1,5 @@
 # Invernadero_Automatizado
-Invernadero_Automatizado con Raspberry Pi 3 B como ejemplo de su uso como ordenador de placa reducida. 
+Invernadero_Automatizado con Raspberry Pi 3 B, como ejemplo de su uso como ordenador de placa reducida. 
 
 En este repositorio se incluye todo el código necesario por el que se automatiza un invernadero con Raspberry Pi 3 Modelo B y se trasmiten los datos obtenidos de la misma al PC. A la Raspberry se le conecta por puerto serial un Arduino UNO R3 que le comunica valores detectados mediante sensores analógicos de temperatura, humedad, presión, luminosidad e higrometría.
 
