@@ -14,7 +14,7 @@ Pasos en la ejecución del código( dar permisos con chmod):
       
       2.3) "datos.txt". Fichero de texto plano que creamos en la Raspberry y en donde se van a almacenar los datos medidos por los sensores conectados a Arduino. 
       
-      2.4)./script_transmitir_datos.sh (Ejercutar en el terminal en el PC), lo ejecutamos en nuestro ordenador personal, cambiar la direcció IP y la contraña, con éste script extraemos los datos por SSH. 
+      2.4)./script_transmitir_datos.sh (Ejercutar en el terminal en el PC), lo ejecutamos en nuestro ordenador personal, cambiar la direcció IP y la contraseña, con éste script extraemos los datos por ssh. 
       
       2.5) ./script_graficar.sh (Ejecutar en el terminal en el  PC), lo llamos desde la terminal, es necesario tener instalado GNUPLOT (o cambiar en el script por otro para graficar). 
 
